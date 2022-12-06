@@ -1,0 +1,264 @@
+{"shoes": [
+    {
+      "id": 1,
+      "name": "Air Jordan 1 Retro High OG 'University Blue'",
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/049/887/653/original/599627_01.jpg.jpeg?action=crop&width=900",
+      "price": 455,
+      "retailPrice": 170,
+      "releaseYear": "2021",
+      "colorway": "White/University Blue/Black"
+      
+    },
+    {
+      "id": 2,
+      "name": "Off-White x Air Jordan 1 Retro High OG 'UNC'",
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/078/710/357/original/335047_01.jpg.jpeg?action=crop&width=900",
+      "price": 2027,
+      "retailPrice": 190,
+      "releaseYear": "2018",
+      "colorway": "White/Dark Powder Blue-Cone"
+      
+    },
+    {
+      "id": 3,
+      "name": "Titan x Wmns Air Jordan 2 Retro Low",
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/080/014/177/original/956630_01.jpg.jpeg?action=crop&width=900",
+      "price": 124,
+      "retailPrice": 200,
+      "releaseYear": "2022",
+      "colorway": "Sail/Safty Orange/Chlorophyll/Coconut Milk"
+      
+    },
+    {
+      "id": 4,
+      "name": "Union LA x Air Jordan 2 Retro SP 'Grey Fog'",
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/071/012/173/original/848369_01.jpg.jpeg?action=crop&width=900",
+      "price": 168,
+      "retailPrice": 225,
+      "releaseYear": "2022",
+      "colorway": "Grey Fog/Siren Red/Light Smoke Grey"
+      
+    },
+    {
+      "id": 5,
+      "name": "Air Jordan 3 Retro 'Black Cat'",
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/079/992/417/original/14030_01.jpg.jpeg?action=crop&width=900",
+      "price": 888,
+      "retailPrice": 125,
+      "releaseYear": "2007",
+      "colorway": "Black/Dark Charcoal-Black"
+      
+    },
+    {
+      "id": 6,
+      "name": "Air Jordan 3 Retro JTH NRG 'White Cement'",
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/078/447/409/original/307320_01.jpg.jpeg?action=crop&width=900",
+      "price": 989,
+      "retailPrice": 15.99,
+      "releaseYear": "2018",
+      "colorway": "White/Fire Red-Black-White"
+      
+    },
+    {
+      "id": 7,
+      "name": "Air Jordan 4 Retro 'Green Metallic'",
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/081/743/325/original/555534_01.jpg.jpeg?action=crop&width=900",
+      "price": 582,
+      "retailPrice": 190,
+      "releaseYear": "2020",
+      "colorway": "White/Pine Green/Metallic Silver"
+      
+    },
+    {
+      "id": 8,
+      "name": "Air Jordan 4 Retro 'Red Thunder'",
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/061/943/944/original/791362_01.jpg.jpeg?action=crop&width=900",
+      "price": 454,
+      "retailPrice": 190,
+      "releaseYear": "2022",
+      "colorway": "Thunder-Red/Black"
+      
+    },
+    {
+      "id": 9,
+      "name": "Air Jordan 5 OG 'Metallic'",
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/078/080/658/original/47245_01.jpg.jpeg?action=crop&width=900",
+      "price": 587,
+      "retailPrice": 220,
+      "releaseYear": "2016",
+      "colorway": "Black/Metallic Silver"
+      
+    },
+    {
+      "id": 10,
+      "name": "Air Jordan 5 Retro 'Olympic'",
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/078/084/623/original/50094_01.jpg.jpeg?action=crop&width=900",
+      "price": 289,
+      "retailPrice": 190,
+      "releaseYear": "2016",
+      "colorway": "White/Black-Metallic Gold Coin"
+      
+    },
+    {
+      "id": 11,
+      "name": "Air Jordan 6 Retro 'Gatorade'",
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/078/085/581/original/146519_01.jpg.jpeg?action=crop&width=900",
+      "price": 278,
+      "retailPrice": 190,
+      "releaseYear": "2017",
+      "colorway": "Summit White/Black-Team Orange"
+      
+    },
+    {
+      "id": 12,
+      "name": "Air Jordan 6 Retro 'UNC'",
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/078/085/569/original/144671_01.jpg.jpeg?action=crop&width=900",
+      "price": 504,
+      "retailPrice": 210,
+      "releaseYear": "2017",
+      "colorway": "Black/University Blue"
+      
+    },
+    {
+      "id": 13,
+      "name": "Air Jordan 7 Retro 'Pantone'",
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/077/930/235/original/116066_01.jpg.jpeg?action=crop&width=900",
+      "price": 456,
+      "retailPrice": 190,
+      "releaseYear": "2017",
+      "colorway": "University Blue/White-Black"
+      
+    },
+    {
+      "id": 14,
+      "name": "Air Jordan 7 Retro 'Citris'",
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/074/779/687/original/890914_01.jpg.jpeg?action=crop&width=900",
+      "price": 199,
+      "retailPrice": 200,
+      "releaseYear": "2022",
+      "colorway": "Black/Citris/Varsity Red"
+      
+    },
+    {
+      "id": 15,
+      "name": "Air Jordan 8 Retro 'South Beach'",
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/079/012/052/original/451348_01.jpg.jpeg?action=crop&width=900",
+      "price": 323,
+      "retailPrice": 190,
+      "releaseYear": "2018",
+      "colorway": "White/White-Turbo Green"
+      
+    },
+    {
+      "id": 16,
+      "name": "Air Jordan 8 Retro 'Aqua'",
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/078/080/557/original/30210_01.jpg.jpeg?action=crop&width=900",
+      "price": 462,
+      "retailPrice": 190,
+      "releaseYear": "2015",
+      "colorway": "Black/True Red-Flint Grey-Bright Concord"
+      
+    },
+    {
+      "id": 17,
+      "name": "Air Jordan 9 Retro 'Chile Red'",
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/070/734/778/original/819152_01.jpg.jpeg?action=crop&width=900",
+      "price": 287,
+      "retailPrice": 190,
+      "releaseYear": "2022",
+      "colorway": "Chile Red/Black"
+      
+    },
+    {
+      "id": 18,
+      "name": "Air Jordan 9 Retro 'Fire Red'",
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/079/488/577/original/1004207_01.jpg.jpeg?action=crop&width=900",
+      "price": 213,
+      "retailPrice": 200,
+      "releaseYear": "2022",
+      "colorway": "White/Cool Grey/Fire Red"
+      
+    },
+    {
+      "id": 19,
+      "name": "Air Jordan 10 Retro 'Charlotte Hornets'",
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/078/458/902/original/49691_01.jpg.jpeg?action=crop&width=900",
+      "price": 379,
+      "retailPrice": 190,
+      "releaseYear": "2017",
+      "colorway": "White/Light Purple"
+      
+    },
+    {
+      "id": 20,
+      "name": "Air Jordan 10 'Double Nickel'",
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/078/460/954/original/14426_01.jpg.jpeg?action=crop&width=900",
+      "price": 383,
+      "retailPrice": 190,
+      "releaseYear": "2015",
+      "colorway": "White/Varsity Red-Black"
+      
+    },
+    {
+      "id": 21,
+      "name": "Air Jordan 11 Retro Low 'Legend Blue'",
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/058/290/877/original/632806_01.jpg.jpeg?action=crop&width=900",
+      "price": 304,
+      "retailPrice": 185,
+      "releaseYear": "2021",
+      "colorway": "White/White/Black/Legend Blue"
+      
+    },
+    {
+      "id": 22,
+      "name": "Air Jordan 11 Retro 'Bred'",
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/047/069/784/original/478948_01.jpg.jpeg?action=crop&width=900",
+      "price": 472,
+      "retailPrice": 220,
+      "releaseYear": "2019",
+      "colorway": "Black/White/Varsity Red"
+      
+    },
+    {
+      "id": 23,
+      "name": "Air Jordan 12 Retro GG 'University Blue'",
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/040/778/526/original/52012_01.jpg.jpeg?action=crop&width=900",
+      "price": 624,
+      "retailPrice": 140,
+      "releaseYear": "2016",
+      "colorway": "White/Metallic Gold-University Blue'"
+      
+    },
+    {
+      "id": 24,
+      "name": "Air Jordan 12 Retro 'Bordeaux'",
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/078/081/117/original/124175_01.jpg.jpeg?action=crop&width=900",
+      "price": 473,
+      "retailPrice": 190,
+      "releaseYear": "2017",
+      "colorway": "Bordeaux/Metallic Silver-White"
+      
+    },
+    {
+      "id": 25,
+      "name": "SoleFly x Air Jordan 13 Retro `I'd Rather Be Fishing`",
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/080/659/058/original/DX5763_100.png.png?action=crop&width=900",
+      "price": 281,
+      "retailPrice": 200,
+      "releaseYear": "2022",
+      "colorway": "Muslin/Light Smoke Grey/Gum Light Brown/Celestine Blue"
+      
+    },
+    {
+      "id": 26,
+      "name": "Air Jordan 13 Retro 'Del Sol'",
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/067/906/142/original/891525_01.jpg.jpeg?action=crop&width=900",
+      "price": 234,
+      "retailPrice": 200,
+      "releaseYear": "2022",
+      "colorway": "White/University Red/Del Sol/Black"
+      
+    }
+   
+  ]
+}
