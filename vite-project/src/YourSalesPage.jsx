@@ -1,4 +1,5 @@
 import React from "react";
+import NewShoeForm from "./NewShoeForm"
 
 function YourSalesPage() {
     return (

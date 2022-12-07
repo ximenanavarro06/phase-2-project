@@ -6,7 +6,7 @@ const linkStyles = {
     width: "50px",
     padding: "12px",
     margin: "0 6px 6px",
-    background: "blue",
+    background: "pink",
     textDecoration: "none",
     color: "white",
   };
@@ -19,7 +19,7 @@ function NavBar() {
           exact
           style={linkStyles}
           activeStyle={{
-            background: "darkblue",
+            background: "pink",
           }}
         >
           Shoes 
@@ -29,7 +29,7 @@ function NavBar() {
           exact
           style={linkStyles}
           activeStyle={{
-            background: "darkblue",
+            background: "pink",
           }}
         >
           Your Sales
@@ -39,7 +39,7 @@ function NavBar() {
           exact
           style={linkStyles}
           activeStyle={{
-            background: "darkblue",
+            background: "pink",
           }}
         >
           Cart
