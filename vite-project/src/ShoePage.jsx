@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from "react";
-import ShoeList from "./ShoeList"
+import ShoeList from "./ShoeList";
+import Search from "./Search";
 
 function ShoePage() {
-    const [shoes, setShoes] = useState([])
+    const [shoes, setShoes] = useState([]);
+    const [search, setSearch] = useState("")
 
 useEffect(()=> {
     fetch ('http://localhost:3000/shoes')
@@ -10,10 +12,18 @@ useEffect(()=> {
     .then((shoes) => setShoes(shoes))
 }, [])
 
+const filteredShoes = shoes.filter((shoes)=> 
+shoes.name.toLowerCase().includes(search.toLowerCase())
+|| shoes.colorway.toLowerCase().includes(search.toLowerCase())
+ 
+
+)
+
     return (
         <main>
-           
-            <ShoeList shoes={shoes}/>
+            <Search search={search} setSearch={setSearch}/>
+            <ShoeList shoes={filteredShoes}/>
+            
         </main>
     )
 }
