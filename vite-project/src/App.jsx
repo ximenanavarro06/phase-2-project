@@ -1,15 +1,46 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import Header from "./Header";
-import ShoePage from "./ShoePage";
+//import ShoePage from "./ShoePage";
 import CartPage from "./CartPage"
 import YourSalesPage from "./YourSalesPage"
 import {Route, Switch} from "react-router-dom";
 import NavBar from "./NavBar"
+import ShoeList from './ShoeList';
 
 
 
 
 function App() {
+
+  const [shoes, setShoes] = useState([]);
+    const [search, setSearch] = useState("");
+
+function handleAddToCart(addItemToCart) {
+    const itemsInCart = shoes.map((shoe)=> {
+        if (shoe.id === addItemToCart.id) {
+            return addItemToCart;
+        } else {
+            return shoe;
+        }
+    })
+    setShoes(itemsInCart);
+}
+    
+
+    
+
+useEffect(()=> {
+    fetch ('http://localhost:3000/shoes')
+    .then ((r)=> r.json())
+    .then((shoes) => setShoes(shoes))
+}, [])
+
+const filteredShoes = shoes.filter((shoes)=> 
+shoes.name.toLowerCase().includes(search.toLowerCase())
+|| shoes.colorway.toLowerCase().includes(search.toLowerCase())
+ 
+
+)
   
 
   return (
@@ -18,13 +49,13 @@ function App() {
           <NavBar />
           <Switch>
             <Route exact path="/Shoes">
-              <ShoePage />
+              <ShoeList shoes={filteredShoes} search={search} setSearch={setSearch} onAddToCart={handleAddToCart}/>
             </Route>
             <Route exact path="/YourSales">
               <YourSalesPage />
             </Route>
             <Route exact path="/Cart">
-              <CartPage />
+              <CartPage shoes={shoes}/>
             </Route>
           </Switch>
         </div>

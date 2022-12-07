@@ -1,22 +1,26 @@
 import React, {useState, useEffect} from "react";
-import NewShoeForm from "./NewShoeForm"
+import NewShoeForm from "./NewShoeForm";
+import YourSalesList from "./YourSalesList";
 
 function YourSalesPage() {
-    const [shoes, setShoes] = useState([]);
+    const [yourSales, setYourSales] = useState([]);
+
 
     useEffect(()=> {
         fetch('http://localhost:4000/yourSales')
         .then((r)=> r.json())
-        .then((shoes) => setShoes(shoes))
+        .then(data => setYourSales(data))
       }, [])
 
     function handleAddShoe(newShoe) {
-        setShoes([...shoes, newShoe])
+        setYourSales([...yourSales, newShoe])
       } 
+
 
     return (
      <main> 
         <NewShoeForm onAddShoe={handleAddShoe} />
+        <YourSalesList yourSales={yourSales} />
      </main>
     )
 }

@@ -1,4 +1,5 @@
-{"shoes": [
+{
+  "shoes": [
     {
       "id": 1,
       "name": "Air Jordan 1 Retro High OG 'University Blue'",
@@ -6,8 +7,8 @@
       "price": 455,
       "retailPrice": 170,
       "releaseYear": "2021",
-      "colorway": "White/University Blue/Black"
-      
+      "colorway": "White/University Blue/Black",
+      "cart": true
     },
     {
       "id": 2,
@@ -16,8 +17,8 @@
       "price": 2027,
       "retailPrice": 190,
       "releaseYear": "2018",
-      "colorway": "White/Dark Powder Blue-Cone"
-      
+      "colorway": "White/Dark Powder Blue-Cone",
+      "cart": true
     },
     {
       "id": 3,
@@ -26,8 +27,8 @@
       "price": 124,
       "retailPrice": 200,
       "releaseYear": "2022",
-      "colorway": "Sail/Safty Orange/Chlorophyll/Coconut Milk"
-      
+      "colorway": "Sail/Safty Orange/Chlorophyll/Coconut Milk",
+      "cart": false
     },
     {
       "id": 4,
@@ -36,8 +37,8 @@
       "price": 168,
       "retailPrice": 225,
       "releaseYear": "2022",
-      "colorway": "Grey Fog/Siren Red/Light Smoke Grey"
-      
+      "colorway": "Grey Fog/Siren Red/Light Smoke Grey",
+      "cart": false
     },
     {
       "id": 5,
@@ -46,8 +47,8 @@
       "price": 888,
       "retailPrice": 125,
       "releaseYear": "2007",
-      "colorway": "Black/Dark Charcoal-Black"
-      
+      "colorway": "Black/Dark Charcoal-Black",
+      "cart": false
     },
     {
       "id": 6,
@@ -56,8 +57,8 @@
       "price": 989,
       "retailPrice": 15.99,
       "releaseYear": "2018",
-      "colorway": "White/Fire Red-Black-White"
-      
+      "colorway": "White/Fire Red-Black-White",
+      "cart": false
     },
     {
       "id": 7,
@@ -66,8 +67,8 @@
       "price": 582,
       "retailPrice": 190,
       "releaseYear": "2020",
-      "colorway": "White/Pine Green/Metallic Silver"
-      
+      "colorway": "White/Pine Green/Metallic Silver",
+      "cart": false
     },
     {
       "id": 8,
@@ -76,8 +77,8 @@
       "price": 454,
       "retailPrice": 190,
       "releaseYear": "2022",
-      "colorway": "Thunder-Red/Black"
-      
+      "colorway": "Thunder-Red/Black",
+      "cart": false
     },
     {
       "id": 9,
@@ -86,8 +87,8 @@
       "price": 587,
       "retailPrice": 220,
       "releaseYear": "2016",
-      "colorway": "Black/Metallic Silver"
-      
+      "colorway": "Black/Metallic Silver",
+      "cart": false
     },
     {
       "id": 10,
@@ -96,8 +97,8 @@
       "price": 289,
       "retailPrice": 190,
       "releaseYear": "2016",
-      "colorway": "White/Black-Metallic Gold Coin"
-      
+      "colorway": "White/Black-Metallic Gold Coin",
+      "cart": false
     },
     {
       "id": 11,
@@ -106,8 +107,8 @@
       "price": 278,
       "retailPrice": 190,
       "releaseYear": "2017",
-      "colorway": "Summit White/Black-Team Orange"
-      
+      "colorway": "Summit White/Black-Team Orange",
+      "cart": false
     },
     {
       "id": 12,
@@ -116,8 +117,8 @@
       "price": 504,
       "retailPrice": 210,
       "releaseYear": "2017",
-      "colorway": "Black/University Blue"
-      
+      "colorway": "Black/University Blue",
+      "cart": false
     },
     {
       "id": 13,
@@ -126,8 +127,8 @@
       "price": 456,
       "retailPrice": 190,
       "releaseYear": "2017",
-      "colorway": "University Blue/White-Black"
-      
+      "colorway": "University Blue/White-Black",
+      "cart": false
     },
     {
       "id": 14,
@@ -136,8 +137,8 @@
       "price": 199,
       "retailPrice": 200,
       "releaseYear": "2022",
-      "colorway": "Black/Citris/Varsity Red"
-      
+      "colorway": "Black/Citris/Varsity Red",
+      "cart": false
     },
     {
       "id": 15,
@@ -146,8 +147,8 @@
       "price": 323,
       "retailPrice": 190,
       "releaseYear": "2018",
-      "colorway": "White/White-Turbo Green"
-      
+      "colorway": "White/White-Turbo Green",
+      "cart": false
     },
     {
       "id": 16,
@@ -156,8 +157,8 @@
       "price": 462,
       "retailPrice": 190,
       "releaseYear": "2015",
-      "colorway": "Black/True Red-Flint Grey-Bright Concord"
-      
+      "colorway": "Black/True Red-Flint Grey-Bright Concord",
+      "cart": false
     },
     {
       "id": 17,
@@ -166,8 +167,8 @@
       "price": 287,
       "retailPrice": 190,
       "releaseYear": "2022",
-      "colorway": "Chile Red/Black"
-      
+      "colorway": "Chile Red/Black",
+      "cart": false
     },
     {
       "id": 18,
@@ -176,8 +177,8 @@
       "price": 213,
       "retailPrice": 200,
       "releaseYear": "2022",
-      "colorway": "White/Cool Grey/Fire Red"
-      
+      "colorway": "White/Cool Grey/Fire Red",
+      "cart": false
     },
     {
       "id": 19,
@@ -186,8 +187,8 @@
       "price": 379,
       "retailPrice": 190,
       "releaseYear": "2017",
-      "colorway": "White/Light Purple"
-      
+      "colorway": "White/Light Purple",
+      "cart": false
     },
     {
       "id": 20,
@@ -196,8 +197,8 @@
       "price": 383,
       "retailPrice": 190,
       "releaseYear": "2015",
-      "colorway": "White/Varsity Red-Black"
-      
+      "colorway": "White/Varsity Red-Black",
+      "cart": false
     },
     {
       "id": 21,
@@ -206,8 +207,8 @@
       "price": 304,
       "retailPrice": 185,
       "releaseYear": "2021",
-      "colorway": "White/White/Black/Legend Blue"
-      
+      "colorway": "White/White/Black/Legend Blue",
+      "cart": false
     },
     {
       "id": 22,
@@ -216,8 +217,8 @@
       "price": 472,
       "retailPrice": 220,
       "releaseYear": "2019",
-      "colorway": "Black/White/Varsity Red"
-      
+      "colorway": "Black/White/Varsity Red",
+      "cart": false
     },
     {
       "id": 23,
@@ -226,8 +227,8 @@
       "price": 624,
       "retailPrice": 140,
       "releaseYear": "2016",
-      "colorway": "White/Metallic Gold-University Blue'"
-      
+      "colorway": "White/Metallic Gold-University Blue'",
+      "cart": false
     },
     {
       "id": 24,
@@ -236,8 +237,8 @@
       "price": 473,
       "retailPrice": 190,
       "releaseYear": "2017",
-      "colorway": "Bordeaux/Metallic Silver-White"
-      
+      "colorway": "Bordeaux/Metallic Silver-White",
+      "cart": false
     },
     {
       "id": 25,
@@ -246,8 +247,8 @@
       "price": 281,
       "retailPrice": 200,
       "releaseYear": "2022",
-      "colorway": "Muslin/Light Smoke Grey/Gum Light Brown/Celestine Blue"
-      
+      "colorway": "Muslin/Light Smoke Grey/Gum Light Brown/Celestine Blue",
+      "cart": false
     },
     {
       "id": 26,
@@ -256,9 +257,8 @@
       "price": 234,
       "retailPrice": 200,
       "releaseYear": "2022",
-      "colorway": "White/University Red/Del Sol/Black"
-      
+      "colorway": "White/University Red/Del Sol/Black",
+      "cart": false
     }
-   
   ]
 }

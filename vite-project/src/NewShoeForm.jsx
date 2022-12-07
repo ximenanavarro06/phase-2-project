@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 
-function NewShoeForm() {
+function NewShoeForm({onAddShoe}) {
     const [formData, setFormData] = useState({
         name: "",
         image: "",
@@ -11,7 +11,8 @@ function NewShoeForm() {
     })
 
 function handleSubmit(event) {
-    event.prevent.default();
+    event.preventDefault();
+    
 
     const newShoe = {
         name: formData.name,
