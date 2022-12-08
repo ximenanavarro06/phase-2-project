@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 
-function ShoeCard({shoe, onAddToCart}) {
+function ShoeCard({shoe, onAddToCart, onRemoveFromCart}) {
     const{id, name, image, price, retailPrice, releaseYear, colorway, cart} = shoe; 
     const [inCart, setInCart] = useState(cart)
 
@@ -20,7 +20,7 @@ function ShoeCard({shoe, onAddToCart}) {
             body: JSON.stringify({cart: !cart})
         })
         .then ((r)=> r.json())
-        .then ((addedToCart)=> onAddToCart(addedToCart))
+        .then ((addedToCart)=> setInCart ? onAddToCart(addedToCart) : onRemoveFromCart(addedToCart))
 
 
     }

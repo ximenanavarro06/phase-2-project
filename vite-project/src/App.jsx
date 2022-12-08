@@ -25,6 +25,12 @@ function handleAddToCart(addItemToCart) {
     })
     setShoes(itemsInCart);
 }
+
+function handleRemoveCart(removeItemFromCart) {
+  const removeItem = shoes.filter((shoe) => shoe.id !== removeItemFromCart.id);
+  setShoes(removeItem)
+  
+}
     
 
     
@@ -49,13 +55,13 @@ shoes.name.toLowerCase().includes(search.toLowerCase())
           <NavBar />
           <Switch>
             <Route exact path="/Shoes">
-              <ShoeList shoes={filteredShoes} search={search} setSearch={setSearch} onAddToCart={handleAddToCart}/>
+              <ShoeList shoes={filteredShoes} search={search} setSearch={setSearch} onAddToCart={handleAddToCart} onRemoveFromCart={handleRemoveCart}/>
             </Route>
             <Route exact path="/YourSales">
               <YourSalesPage />
             </Route>
             <Route exact path="/Cart">
-              <CartPage shoes={shoes}/>
+              <CartPage shoes={shoes} onRemoveFromCart={handleRemoveCart} onAddToCart={handleAddToCart}/>
             </Route>
           </Switch>
         </div>
