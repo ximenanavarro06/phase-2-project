@@ -1,7 +1,7 @@
 import React from "react";
 import ShoeCard from "./ShoeCard";
 import Search from "./Search"
-import { Card } from "semantic-ui-react"; // -> find NPM command to install and then npm install
+
 
 function ShoeList({shoes, onAddToCart, search, setSearch, onRemoveFromCart}) {
     

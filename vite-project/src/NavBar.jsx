@@ -1,4 +1,4 @@
-import { textAlign } from "@mui/system";
+
 import React from "react"
 import {NavLink} from "react-router-dom"
 
@@ -31,9 +31,11 @@ const linkStyles = {
 
 function NavBar() {
     return (
+      <header>
+        <nav className="navigation">
       <div className="navBar">
-        <div className="shoesRoute">
-        <NavLink
+       
+        <NavLink className="routeButton"
           to="/Shoes"
           exact
           style={linkStyles}
@@ -44,8 +46,9 @@ function NavBar() {
         >
           Shoes 
         </NavLink>
-        </div>
-        <NavLink
+       
+        
+        <NavLink className="routeButton"
           to="/YourSales"
           exact
           style={linkStyles}
@@ -55,7 +58,9 @@ function NavBar() {
         >
           Your Sales
         </NavLink>
-        <NavLink
+        
+       
+        <NavLink className="routeButton"
           to="/Cart"
           exact
           style={linkStyle}
@@ -67,7 +72,10 @@ function NavBar() {
           🛒
           </div>
         </NavLink>
+        
       </div>
+      </nav>
+      </header>
     );
   }
 

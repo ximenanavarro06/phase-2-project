@@ -24,6 +24,17 @@ function Header() {
                 <span className="logo" role="img" >
                     👟
                 </span></h1>
+            
+            <h2 className="subHeader">
+
+                You're favorite stop   
+
+                
+            </h2>
+
+            <h2 className="subHeader2">
+            for the hottest cops.
+            </h2>
            
         </header>
     )

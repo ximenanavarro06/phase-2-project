@@ -13,6 +13,7 @@ function NewShoeForm({onAddShoe}) {
 function handleSubmit(event) {
     event.preventDefault();
     
+    
 
     const newShoe = {
         name: formData.name,
@@ -32,11 +33,20 @@ function handleSubmit(event) {
     })
       .then ((r) => r.json())
       .then ((newShoe) => onAddShoe(newShoe))
+      setFormData({
+        name: "",
+        image: "",
+        price: "",
+        retailPrice: "", 
+        releaseYear: "",
+        colorway: "",
+    })
 }
 
 function handleChange(event) {
     console.log(event.target.value);
     setFormData({...formData, [event.target.name]: event.target.value})
+    
 }
 
     return (
@@ -50,6 +60,7 @@ function handleChange(event) {
                 <input type="text" name="releaseYear" placeholder="Release Year" onChange={handleChange} value={formData.releaseYear} />
                 <input type="text" name="colorway" placeholder="Colorway" onChange={handleChange} value={formData.colorway} />
                 <button type="submit">Post Shoe</button>
+                
             </form>
         </div>
 

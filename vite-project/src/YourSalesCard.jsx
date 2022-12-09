@@ -6,14 +6,14 @@ function YourSalesCard({yourSale}) {
 
 
     return (
-        <div className="sale-card" style={{display: "flex", flexDirection: "column", flexWrap: "wrap", justifyContent: "center", alignItems: "center", textAlign: "center", width: "40vw", height: "65vh"}}>
-            <img src={image} alt={name} />
+        <div className="salesCard" style={{display: "flex", flexDirection: "column", flexWrap: "wrap", justifyContent: "center", alignItems: "center", textAlign: "center", width: "40vw", height: "65vh", border: "10px solid", borderColor: "red",margin: "50px", backgroundColor: "white"}}>
+            <img style={{height: "28%", width: "35%"}}src={image} alt={name} />
             <div style={{display: "flex", flexDirection: "column", justifyContent: "center"}}/>
-            <h4 style={{fontSize: "14px"}}>{name}</h4>
-            <p> {price}</p>
-            <p>{retailPrice}</p>
-            <p>{releaseYear}</p>
-            <p>{colorway}</p>
+            <h4 style={{fontSize: "19px"}} >{name}</h4>
+            <p> <b>Price:</b> {price}</p>
+            <p><b>Retail Price:</b>{retailPrice}</p>
+            <p><b>Release Year:</b> {releaseYear}</p>
+            <p><b>Colorway:</b> {colorway}</p>
         </div>
     );
 }

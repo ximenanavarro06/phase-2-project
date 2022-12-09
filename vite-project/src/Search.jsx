@@ -8,8 +8,9 @@ function Search({search, setSearch}) {
     return (
        <div className="searchbar">
         <div>
-        <label htmlFor="search">Search by Shoe Name or Shoe Color</label>
+        <label htmlFor="search" className="searchText">Search by Shoe Name or Shoe Color</label>
         </div>
+        <div className="searchBarText">
         <input 
         type="text"
         id="search"
@@ -17,6 +18,7 @@ function Search({search, setSearch}) {
         onChange={handleSearchChange}
         value={search}
         />
+        </div>
        </div>
     )
 }

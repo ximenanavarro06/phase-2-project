@@ -16,7 +16,7 @@ html {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-align:center;
   font-weight: 1500px; 
-  margin-bottom: 25px; 
+  margin-bottom: 0px; 
   margin-top: 200px;
   color: white;
   /* text-shadow: -1px 100px 2px blue; */
@@ -57,7 +57,7 @@ html {
   background-image: url("assets/monkeybackground.jpg");
   
   background-repeat: no-repeat;  
-  border-radius: 20px;
+  /* border-radius: 20px; */
   width: 100%;
   background-size: cover;
   margin-bottom: 7px;
@@ -77,7 +77,12 @@ html {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+  
 
+  }
+
+  .searchbar:hover {
+    background-color: rgba(255, 0, 0, 0.501);
   }
 
  /* .header {
@@ -88,11 +93,18 @@ html {
  .navBar {
   text-align: center;
   font-size: 50px;
-  background-image:url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ac31db2e-6537-41f0-8f02-57b7efe41467/d3eelhh-2c621665-24ca-4022-ae05-86351d4c1015.jpg/v1/fill/w_900,h_675,q_75,strp/mars_blackmon__is_it_the_shoes_by_ebonitaapplebum_d3eelhh-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9Njc1IiwicGF0aCI6IlwvZlwvYWMzMWRiMmUtNjUzNy00MWYwLThmMDItNTdiN2VmZTQxNDY3XC9kM2VlbGhoLTJjNjIxNjY1LTI0Y2EtNDAyMi1hZTA1LTg2MzUxZDRjMTAxNS5qcGciLCJ3aWR0aCI6Ijw9OTAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.yNmIh91TM50bN6Ezs_ySwH1SQXc_6-akgx-RQ9aJn74");
-  padding-right: 900px;
+  /* background-image:url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ac31db2e-6537-41f0-8f02-57b7efe41467/d3eelhh-2c621665-24ca-4022-ae05-86351d4c1015.jpg/v1/fill/w_900,h_675,q_75,strp/mars_blackmon__is_it_the_shoes_by_ebonitaapplebum_d3eelhh-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9Njc1IiwicGF0aCI6IlwvZlwvYWMzMWRiMmUtNjUzNy00MWYwLThmMDItNTdiN2VmZTQxNDY3XC9kM2VlbGhoLTJjNjIxNjY1LTI0Y2EtNDAyMi1hZTA1LTg2MzUxZDRjMTAxNS5qcGciLCJ3aWR0aCI6Ijw9OTAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.yNmIh91TM50bN6Ezs_ySwH1SQXc_6-akgx-RQ9aJn74"); */
   background-size: cover;
   border-radius: 10px;
-  padding-bottom: 00px;
+  margin-bottom: -200px;
+
+  
+ }
+
+ .routeButton {
+  padding-left: 500px;
+  border: none;
+  font-size: 20px;
   
  }
 
@@ -103,17 +115,86 @@ html {
  .cartName {
   text-align:center;
   font-size: 30px;
+
   
  }
 
  .cards {
   background-image: url("https://images.squarespace-cdn.com/content/v1/5ce5f366eacb150001ee1e03/1588917155955-ZWFN6DZ3E6KAUKK8NECO/IMG_1904.jpeg?format=2500w");
+ 
+}
+
+
+
+ .cartTitle {
+  font-size: 59px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding-bottom: 2px;
+  padding-top: 0px;
  }
 
- .shoesRoute {
-  padding-left: 650px;
-  padding-top: 100px;
-  margin-bottom: -120px;
- text-align: center;
- font-size: 30px;
+ .new-shoe-form {
+  text-align: center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  padding-bottom: 53px;
+  
  }
+
+
+
+ .searchText {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 1500px;
+  font-size: 40px;
+ 
+ }
+
+ .searchBarText {
+  font-size:40px;
+ }
+
+ .subHeader {
+  padding-left: 365px;
+  padding-right: 0px;
+  font-size: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align:center;
+  font-weight: 1500px; 
+  margin-bottom: 0px; 
+  margin-top: 50px;
+  color: white;
+  /* text-shadow: -1px 100px 2px blue; */
+  text-shadow: -1px 4px  red;
+  
+  /* background-color: rgba(226, 178, 226, 0.903); */
+  border-radius: 20px;
+ }
+
+ .subHeader2 {
+  padding-left: 0px;
+  padding-right: 365px;
+  font-size: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align:center;
+  font-weight: 1500px; 
+  margin-bottom: 0px; 
+  margin-top: 50px;
+  color: white;
+  /* text-shadow: -1px 100px 2px blue; */
+  text-shadow: -1px 4px  red;
+  
+  /* background-color: rgba(226, 178, 226, 0.903); */
+  border-radius: 20px;
+ }
+
+ .sale-cards {
+  background-image: url("https://images.squarespace-cdn.com/content/v1/5ce5f366eacb150001ee1e03/1588917155955-ZWFN6DZ3E6KAUKK8NECO/IMG_1904.jpeg?format=2500w");
+ }
+ 
+ .shoesInCart {
+  background-image: url("https://images.squarespace-cdn.com/content/v1/5ce5f366eacb150001ee1e03/1588917155955-ZWFN6DZ3E6KAUKK8NECO/IMG_1904.jpeg?format=2500w");
+ padding-top: 2px;
+ padding-bottom: 10px;
+ margin-top: 52px;
+}
