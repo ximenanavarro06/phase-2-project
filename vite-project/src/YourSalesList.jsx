@@ -10,7 +10,7 @@ function YourSalesList({yourSales}) {
     ))
     
     return (
-        <ul className="sale-cards">{yourSalesList}</ul>
+        <ul className="sale-cards" style={{display: "flex", flexWrap: "wrap", justifyContent: "center"}}>{yourSalesList}</ul>
         
     )
 }

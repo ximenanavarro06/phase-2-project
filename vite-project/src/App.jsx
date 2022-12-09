@@ -51,19 +51,36 @@ shoes.name.toLowerCase().includes(search.toLowerCase())
 
   return (
     <div className="app">
+           
+           <NavBar />
             <Header />
-          <NavBar />
+
+           
+          
+        
           <Switch>
+
             <Route exact path="/Shoes">
-              <ShoeList shoes={filteredShoes} search={search} setSearch={setSearch} onAddToCart={handleAddToCart} onRemoveFromCart={handleRemoveCart}/>
+              <ShoeList 
+              shoes={filteredShoes} 
+              search={search} setSearch={setSearch} 
+              onAddToCart={handleAddToCart} onRemoveFromCart={handleRemoveCart}
+              />
+              
             </Route>
+
             <Route exact path="/YourSales">
               <YourSalesPage />
             </Route>
+
             <Route exact path="/Cart">
-              <CartPage shoes={shoes} onRemoveFromCart={handleRemoveCart} onAddToCart={handleAddToCart}/>
+              <CartPage 
+              shoes={shoes} 
+              onRemoveFromCart={handleRemoveCart} onAddToCart={handleAddToCart}/>
             </Route>
+
           </Switch>
+          
         </div>
   )
 }

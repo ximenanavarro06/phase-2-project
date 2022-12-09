@@ -7,7 +7,9 @@ function Search({search, setSearch}) {
 
     return (
        <div className="searchbar">
+        <div>
         <label htmlFor="search">Search by Shoe Name or Shoe Color</label>
+        </div>
         <input 
         type="text"
         id="search"

@@ -1,35 +1,56 @@
+import { textAlign } from "@mui/system";
 import React from "react"
 import {NavLink} from "react-router-dom"
 
 const linkStyles = { 
     display: "inline-block",
-    width: "50px",
+    width: "100px",
     padding: "12px",
     margin: "0 6px 6px",
-    background: "pink",
+    background: "red",
+    textDecoration: "none",
+    borderColor: "black",
+            border: "10px solid",
+    color: "white",
+    
+    
+  };
+
+  const linkStyle = { 
+    display: "inline-block",
+    width: "50px",
+    padding: "12px",
+    
+    margin: "0 6px 6px",
+    background: "red",
     textDecoration: "none",
     color: "white",
+    borderColor: "black",
+            border: "10px solid"
   };
 
 function NavBar() {
     return (
-      <div>
+      <div className="navBar">
+        <div className="shoesRoute">
         <NavLink
           to="/Shoes"
           exact
           style={linkStyles}
           activeStyle={{
-            background: "pink",
+            background: "grey"
+            
           }}
         >
           Shoes 
         </NavLink>
+        </div>
         <NavLink
           to="/YourSales"
           exact
           style={linkStyles}
           activeStyle={{
-            background: "pink",
+            background: "grey",
           }}
         >
           Your Sales
@@ -37,12 +58,14 @@ function NavBar() {
         <NavLink
           to="/Cart"
           exact
-          style={linkStyles}
+          style={linkStyle}
           activeStyle={{
-            background: "pink",
+            background: "grey",
           }}
         >
-          Cart
+          <div className="cartName">
+          🛒
+          </div>
         </NavLink>
       </div>
     );

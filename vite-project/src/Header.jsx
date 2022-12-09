@@ -1,17 +1,30 @@
 import React from "react";
 
+
 function Header() {
     return (
-        <header>
-            <h1>
-                <span className="logo" role="img">
+        <header id="header">
+            
+             
+            <h1 className="header">
+                
+                <span className="logo" role="img" >
                     👟
                 </span>
-                Kick Stop
-                <span className="logo" role="img">
+                
+                ~KICK
+                {/* <span className="logo" role="img">
                     👟
-                </span>
+                </span> */}
+               
+                
             </h1>
+            <h1 className="header2"> 
+                STOP~
+                <span className="logo" role="img" >
+                    👟
+                </span></h1>
+           
         </header>
     )
 }

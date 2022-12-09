@@ -9,7 +9,7 @@ function CartPage ({shoes, onRemoveFromCart, onAddToCart}) {
     ))
     return (
         <div>
-        <h1>Cart</h1>
+        <h1 className="cartTitle">Items In Cart</h1>
         <div>{allShoes}</div>
         </div>
     )

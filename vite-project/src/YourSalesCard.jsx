@@ -6,15 +6,20 @@ function YourSalesCard({yourSale}) {
 
 
     return (
-        <li className="sale-card">
+        <div className="sale-card" style={{display: "flex", flexDirection: "column", flexWrap: "wrap", justifyContent: "center", alignItems: "center", textAlign: "center", width: "40vw", height: "65vh"}}>
             <img src={image} alt={name} />
-            <h4>{name}</h4>
+            <div style={{display: "flex", flexDirection: "column", justifyContent: "center"}}/>
+            <h4 style={{fontSize: "14px"}}>{name}</h4>
             <p> {price}</p>
             <p>{retailPrice}</p>
             <p>{releaseYear}</p>
             <p>{colorway}</p>
-        </li>
+        </div>
     );
 }
 
 export default YourSalesCard;
+
+
+// border: "1px solid", borderColor: "black",margin: "10px"
+// style={{height: "30%", width: "30%"}}
